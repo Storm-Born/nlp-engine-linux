@@ -54,6 +54,8 @@ jobs:
       run: |
         echo "Current files in repository:"
         ls -la
+        echo "show what's in release-assets"
+        ls -la release-assets/
 
     - name: Copy assets to repository overwriting existing files
       run: |
